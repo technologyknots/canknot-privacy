@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CanKnot — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 48px 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6; color: #1f2430; background: #f7f7f8;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; background: #fff; border: 1px solid #e6e8ec;
+            border-radius: 14px; padding: 36px 40px; box-shadow: 0 1px 3px rgba(16,24,40,.05); }
+    .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 20px; margin-bottom: 4px; }
+    .brand .dot { width: 26px; height: 26px; border-radius: 8px; background: linear-gradient(135deg,#ff2e86,#ff7a1e,#ef2338); }
+    .updated { color: #8a90a0; font-size: 13px; margin-bottom: 24px; }
+    h2 { font-size: 16px; margin: 26px 0 8px; }
+    p, li { font-size: 15px; color: #374151; }
+    ul { padding-left: 20px; }
+    .callout { background: #f0fbf4; border: 1px solid #cdeed9; color: #14663b;
+               border-radius: 10px; padding: 14px 16px; font-weight: 600; font-size: 15px; margin: 18px 0; }
+    code { background: #f1f2f5; padding: 1px 6px; border-radius: 6px; font-size: 13px; }
+    footer { margin-top: 28px; font-size: 13px; color: #8a90a0; }
+    a { color: #ef2338; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #14151a; color: #e6e8ec; }
+      .wrap { background: #1c1e26; border-color: #2a2d38; box-shadow: none; }
+      p, li { color: #c4c8d4; }
+      .callout { background: #10261a; border-color: #204d33; color: #7fe0a6; }
+      code { background: #2a2d38; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span> CanKnot</div>
+    <div class="updated">Read-Only Website Lock · Privacy Policy · Last updated: 18 September 2026</div>
+
+    <div class="callout">CanKnot does not collect, store, transmit, or sell any personal data. There are no servers, no accounts, and no analytics.</div>
+
+    <h2>What CanKnot does</h2>
+    <p>CanKnot is a browser extension that lets you make websites “read-only” — blocking clicks, edits, form submissions, and uploads while still allowing reading and navigation. All of this happens locally, inside your own browser.</p>
+
+    <h2>Data we collect</h2>
+    <p><strong>None.</strong> CanKnot has no backend and makes no network requests of its own. It does not read, log, or transmit the content of the pages you visit.</p>
+
+    <h2>Data stored on your device</h2>
+    <p>To remember your preferences, CanKnot saves a small amount of settings data using the browser’s local <code>storage</code> API. This data never leaves your device and includes only:</p>
+    <ul>
+      <li>which sites you have locked, and your global “lock all sites” default;</li>
+      <li>whether the blocked-action sound is on, and its volume;</li>
+      <li>the on-screen position of the lock badge;</li>
+      <li>a one-way <strong>SHA-256 hash</strong> of your optional unlock password (the password itself is never stored).</li>
+    </ul>
+    <p>You can clear this data at any time by removing the extension, or via your browser’s extension storage controls.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Host access to websites</strong> — so the extension can apply read-only mode on the sites you choose to lock. Page content is processed locally and never sent anywhere.</li>
+      <li><strong>storage</strong> — to save the settings listed above on your device.</li>
+      <li><strong>tabs</strong> — to read the current tab’s address so the correct per-site lock state is shown.</li>
+      <li><strong>webNavigation</strong> — to re-apply the lock when a single-page app changes views.</li>
+    </ul>
+
+    <h2>Third parties</h2>
+    <p>CanKnot does not share data with any third party, because it does not collect any. It contains no third-party code, trackers, or advertising.</p>
+
+    <h2>Children’s privacy</h2>
+    <p>CanKnot is a general-purpose utility and does not knowingly collect information from anyone, including children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the “Last updated” date above will be revised.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy? Email <a href="mailto:krishnanand.gupta@gmail.com">krishnanand.gupta@gmail.com</a>.</p>
+
+    <footer>© 2026 CanKnot. This policy applies to the CanKnot browser extension.</footer>
+  </div>
+</body>
+</html>
